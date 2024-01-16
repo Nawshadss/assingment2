@@ -513,7 +513,18 @@ footer p {
   .banner-input {
     flex-direction: column;
   }
-
+  .popular-description {
+    width: 375px;
+  }
+  .popular-images {
+    width: 375px;
+  }
+  .popular-images img {
+    width: 100%;
+  }
+  .your p {
+    display: none;
+  }
   .popular-tour {
     flex-direction: column;
     align-items: center;
