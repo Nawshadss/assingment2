@@ -14,8 +14,7 @@
 }
 
 body {
-  max-width: 1440px;
-  margin: 0px auto;
+  max-width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,7 +99,8 @@ nav {
       rgba(19, 19, 24, 0) 100%
     ),
     url("images/Rectangle 1.png");
-  max-width: 992px;
+  width: 1170px;
+
   background-position: cover;
   background-repeat: no-repeat;
   margin: none;
@@ -226,6 +226,9 @@ main {
 }
 .choose-us > p {
   text-align: center;
+}
+.p {
+  color: #5a5a5d;
 }
 .card {
   max-width: 573px;
@@ -480,14 +483,18 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    max-width: 600px;
+  }
   header {
     display: flex;
     flex-direction: column;
   }
   nav {
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
     padding: 10px;
+    width: 375px;
   }
   .navUl {
     display: none;
@@ -527,14 +534,75 @@ footer p {
     justify-content: center;
     flex-direction: column;
   }
+
   .destination-images img {
     width: 335px;
     height: 175px;
   }
-
+  .choose-us p {
+    color: #5a5a5d;
+  }
   .cards {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .cards .card {
+    width: 335px;
+    height: 289px;
+    gap: 2rem;
+  }
+  .deals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dealscards,
+  .dealscards-mid {
+    width: 335px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dealscards .booknow,
+  .dealscards-mid .booknow {
+    width: 303px;
+    height: 297px;
+  }
+  .video-sec,
+  .formsection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .video-left,
+  .video,
+  .newsleter,
+  .position {
+    width: 335px;
+    padding: 1px;
+  }
+  .deals h1 {
+    text-align: center;
+    padding: 0px 20px;
+  }
+  .deals p {
+    width: 309px;
+  }
+  .choose-us p {
+    width: 309px;
+  }
+
+  .discount {
+    width: 214.023px;
+    height: 79.268px;
+  }
+  .form-input .letter {
+    width: 200px;
+  }
+  .newsleter hr {
+    display: none;
   }
 }
