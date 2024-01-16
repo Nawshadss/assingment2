@@ -211,3 +211,98 @@ main {
   margin: 5px 0px;
 }
 /* destinationends */
+
+/* why choose us */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.4rem;
+}
+.choose-us h1 {
+  text-align: center;
+}
+.choose-us > p {
+  text-align: center;
+}
+.card {
+  width: 573px;
+  height: 284px;
+  padding: 32px;
+  border-radius: 10px;
+}
+
+/* why choose us ends */
+
+/* deals  */
+.deals {
+}
+.deals h1 {
+  text-align: center;
+}
+.deals p {
+  text-align: center;
+}
+
+.dealscards {
+  background-image: url("images/Group 39.png");
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 56px;
+  margin: 40px 0px;
+}
+.dealscards-mid {
+  background-image: url("images/Group 40.png");
+  justify-content: flex-start;
+  padding-left: 56px;
+  align-items: center;
+  display: flex;
+  height: 500px;
+}
+.dealscards .booknow,
+.dealscards-mid .booknow {
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 50px;
+}
+.booknow h5 {
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 5px;
+}
+.booknow p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-align: left;
+  margin: 15px 0px;
+}
+
+.booknow h6 {
+  color: #ff5400;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 15px 0px;
+}
+.booknow button {
+  width: 150px;
+  height: 52px;
+}
+.see-all {
+  display: flex;
+  justify-content: center;
+}
+/* deals ends */
