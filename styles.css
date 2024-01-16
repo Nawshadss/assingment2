@@ -98,7 +98,7 @@ nav {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("images/Rectangle 1.png");
+    url("Images/Rectangle 1.png");
   width: 1170px;
 
   background-position: cover;
@@ -250,7 +250,7 @@ main {
 }
 
 .dealscards {
-  background-image: url("images/Group 39.png");
+  background-image: url("Images/Group 39.png");
   height: 500px;
   display: flex;
   align-items: center;
@@ -259,7 +259,7 @@ main {
   margin: 40px 0px;
 }
 .dealscards-mid {
-  background-image: url("images/Group 40.png");
+  background-image: url("Images/Group 40.png");
   justify-content: flex-start;
   padding-left: 56px;
   align-items: center;
@@ -348,7 +348,7 @@ video {
 }
 
 .position {
-  background-image: url("images/Rectangle 8 (1).png");
+  background-image: url("Images/Rectangle 8 (1).png");
   width: 672px;
   position: relative;
   border-radius: 15px;
