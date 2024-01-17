@@ -4,67 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="nav-logo">
-          <img src="Images/Group 40071 (2).png" alt="" />Quick
-          <span>Travel</span>
-        </div>
+    <nav class="flex">
+      <div class="nav-logo flex">
+        <div><img src="Images/Group 40071 (2).png" alt="" /></div>
+        Quick
+        <span> Travel</span>
+      </div>
 
-        <ul class="navUl">
-          <li>Home</li>
-          <li>Packages</li>
-          <li>Testimonial</li>
-          <li>Blog</li>
-          <li>Contact</li>
-        </ul>
-        <div class="hambuger">
-          <img src="Images/Hamburger_icon.svg.png" alt="" />
-        </div>
-      </nav>
-
-      <!-- nav ends -->
-
-      <!-- banners starts -->
-      <div class="banner-container">
-        <div class="banner">
-          <h1 class="banner-title">Explore Your Travel</h1>
-          <p class="banner-description">
-            Embark on a journey of discovery with "Explore Your Travel."<br />
-            Uncover new horizons, immerse in diverse cultures, and create
-            unforgettable memories <br />as you traverse the world's wonders.
-          </p>
-          <div class="banner-input">
-            <input type="" placeholder="Where go" /><input type="text" /><input
-              type="text"
-            /><button class="button-text">
-              <img src="Images/Frame.png" alt="" />Find Now
-            </button>
-          </div>
+      <ul class="navUl flex">
+        <li>Home</li>
+        <li>Packages</li>
+        <li>Testimonial</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+      <div class="hambuger">
+        <img src="Images/Hamburger_icon.svg.png" alt="" />
+      </div>
+    </nav>
+    <!-- nav eds here ------------------------- -->
+    <div class="banner-container">
+      <div class="banner">
+        <h1 class="banner-title">Explore Your Travel</h1>
+        <p class="banner-description">
+          Embark on a journey of discovery with "Explore Your Travel."<br />
+          Uncover new horizons, immerse in diverse cultures, and create
+          unforgettable memories <br />as you traverse the world's wonders.
+        </p>
+        <div class="banner-input">
+          <input type="" placeholder="Where go" /><input
+            type="text"
+            placeholder="When"
+          /><input type="text" placeholder="Select type" /><button
+            class="button-text"
+          >
+            <img src="Images/Frame.png" alt="" />Find Now
+          </button>
         </div>
       </div>
-      <!-- banners endds -->
-    </header>
+    </div>
+    <!-- bannners ends -->
+
+    <!-- main -->
 
     <main>
       <section class="popular-tour">
         <div class="popular-description">
-          <h1>Our Popular Tours</h1>
-          <p class=".text">
+          <h1 class="primarytext">Our Popular Tours</h1>
+          <p class="text">
             Unveil the charm of Europe on this 15-day adventure. From the
             romantic streets of Paris to the historic wonders of Rome,
             experience a cultural tapestry like never before.
           </p>
-          <ul class=".text">
+          <ul class="text">
             <li>Gaze at Parisian splendor from iconic heights.</li>
             <li>Immerse in world-class art, a cultural masterpiece.</li>
             <li>Romantic river voyages, Parisian lights enchant.</li>
           </ul>
           <br />
-          <p>
+          <p class="text">
             Discover breathtaking landscapes, iconic landmarks, and rich culture
             on our popular tours. Unforgettable experiences await. Book your
             adventure today!
@@ -77,53 +78,80 @@
           <img src="Images/Rectangle 4.png" alt="" />
         </div>
       </section>
+      <!-- populer section eds------------------- -->
 
-      <section class="destination">
-        <div class="your">
-          <h1>Choose Your Destination</h1>
-          <p>
-            Explore the enchanting beauty of Santorini: sunsets over azure
-            seas,<br />
-            whitewashed architecture, and vibrant culture. A dream destination
-            awaits.
-          </p>
-        </div>
+      <!-- destinations section -->
+      <div class="des-contain">
+        <section class="destination">
+          <div class="your">
+            <h1
+              style="text-align: center; margin-bottom: 2rem"
+              class="primarytext"
+            >
+              Choose Your Destination
+            </h1>
+            <p class="text">
+              Explore the enchanting beauty of Santorini: sunsets over azure
+              seas,<br />
+              whitewashed architecture, and vibrant culture. A dream destination
+              awaits.
+            </p>
+          </div>
 
-        <div class="destination-images">
-          <div class="col1">
-            <img src="Images/Rectangle 5.png" alt="" /><img
-              src="Images/Rectangle 8.png"
-              alt=""
-            />
+          <div class="destination-images">
+            <div class="col1 flex">
+              <div class="col-image">
+                <h5>Maldives</h5>
+                <img src="Images/Rectangle 5.png" alt="" />
+              </div>
+              <div class="col-image">
+                <h5>Indonesia</h5>
+                <img src="Images/Rectangle 8.png" alt="" />
+              </div>
+            </div>
+            <div class="col2 flex">
+              <div class="col-image">
+                <h5>Srilanka</h5>
+                <img src="Images/Rectangle 6.png" alt="" />
+              </div>
+              <div class="col-image">
+                <h5>Noth America</h5>
+                <img src="Images/Rectangle 7.png" alt="" />
+              </div>
+              <div class="col-image">
+                <h5>Kashmir</h5>
+                <img src="Images/Rectangle 9.png" alt="" />
+              </div>
+            </div>
+            <div class="col3 flex">
+              <div class="col-image">
+                <h5>Bangladesh</h5>
+                <img src="Images/Rectangle 11.png" alt="" />
+              </div>
+              <div class="col-image">
+                <h5>Bandorban</h5>
+                <img src="Images/Rectangle 10.png" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="col2">
-            <img src="Images/Rectangle 6.png" alt="" /><img
-              src="Images/Rectangle 7.png"
-              alt=""
-            /><img src="Images/Rectangle 9.png" alt="" />
-          </div>
-          <div class="col3">
-            <img src="Images/Rectangle 11.png" alt="" /><img
-              src="Images/Rectangle 10.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
+      <!-- destinations section ends ------------------ -->
 
+      <!-- wy choose use  ------------------------->
       <section class="choose-us">
-        <h1>Why Choose Us</h1>
-        <p class="p">
+        <h1 class="primarytext">Why Choose Us</h1>
+        <p class="text">
           Choose us for seamless travel experiences: expert planning, unbeatable
           prices,<br />
           and personalized service. Your journey, our commitment to excellence.
         </p>
         <br /><br /><br />
-        <div class="cards">
+        <div class="cards flex">
           <div class="card" style="background: rgba(251, 181, 99, 0.05)">
             <img src="Images/hotel 1.png" alt="" />
             <h4>Handpicked Hotels</h4>
-            <p>
+            <p class="text">
               Indulge in luxury at our hotel, where impeccable service meets
               exquisite comfort. Experience stylish accommodations, world-class
               amenities, and personalized attention. Your perfect stay begins
@@ -133,7 +161,7 @@
           <div class="card" style="background: rgba(41, 206, 246, 0.05)">
             <img src="images/map 1.png" alt="" />
             <h4>World Class Service</h4>
-            <p>
+            <p class="text">
               Indulge in luxury at our hotel, where impeccable service meets
               exquisite comfort. Experience stylish accommodations, world-class
               amenities, and personalized attention. Your perfect stay begins
@@ -143,7 +171,7 @@
           <div class="card" style="background: rgba(233, 68, 68, 0.05)">
             <img src="Images/price-tag 1.png" alt="" />
             <h4>Best Price Guarantee</h4>
-            <p>
+            <p class="text">
               Indulge in luxury at our hotel, where impeccable service meets
               exquisite comfort. Experience stylish accommodations, world-class
               amenities, and personalized attention. Your perfect stay begins
@@ -152,7 +180,7 @@
           </div>
         </div>
       </section>
-
+      <!-- wy choose use ends -------------------------- -->
       <sectoin class="deals">
         <h1>Deals & Discounts</h1>
         <p>
@@ -190,7 +218,7 @@
         </div>
       </sectoin>
       <!-- video section -->
-      <section class="video-sec">
+      <section class="video-sec flex">
         <div class="video-left">
           <h1>A Simple Perfect Place To Get Lost</h1>
           <p>
@@ -218,12 +246,14 @@
           </video>
         </div>
       </section>
+      <!-- video sec ends----------------- -->
       <!-- form dection  -->
-      <div class="formsection">
+      <div class="formsection flex">
         <div class="newsleter">
           <h2>Newsletter</h2>
           <p>Get your daily dose of travel news & tips. Sign up today!</p>
           <hr />
+          <br />
           <div class="form-input">
             <input class="letter" placeholder="enter your name" type="text" />
             <input placeholder="enter your email" class="letter" type="email" />
@@ -238,7 +268,6 @@
         </div>
       </div>
     </main>
-
     <footer>
       <div class="nav-logo ending">
         <img src="Images/Group 40071 (2).png" alt="" />Quick
